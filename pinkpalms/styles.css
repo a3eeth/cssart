@@ -1,0 +1,31 @@
+div.main-circle {
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 50px auto;
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+span.glyphicon.glyphicon-tree-deciduous:nth-child(1) {
+    font-size: 250px;
+    z-index: 1;
+    top: 48%;
+    left: 0%;
+}
+span.glyphicon.glyphicon-tree-deciduous:nth-child(2) {
+    font-size: 376px;
+    z-index: 1;
+    top: -26%;
+    left: 37%;
+}
+span.glyphicon.glyphicon-cloud {
+    color: white;
+    font-size: 120px;
+    top: -400px;
+    right: 200px;
+}
