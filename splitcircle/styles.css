@@ -1,19 +1,40 @@
+/* * {
+    border: 0;
+    padding: 0;
+} */
+.center {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 740px;
+    z-index: 1;
+    background: lightseagreen;
+    border-radius: 50%;
+}
 .cCont {
     position: relative;
+    margin: 50px auto;
+    display: block;
+    width: 406px;
 }
 .hc {
     height: 400px;
     width: 200px;    
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block; 
 }
 div.splitCircleLeft {
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
     border-right: 0;
+    margin-right: -2px;
+    background: lightseagreen;
 }
 div.splitCircleRight {
     border-top-right-radius: 200px;
     border-bottom-right-radius: 200px;
     border-left: 0;
+    margin-left: -2px;
+    background: lightpink;
 }
