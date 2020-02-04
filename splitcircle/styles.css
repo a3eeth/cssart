@@ -1,0 +1,19 @@
+.cCont {
+    position: relative;
+}
+.hc {
+    height: 400px;
+    width: 200px;    
+    border: 1px solid black;
+    display: inline-block; 
+}
+div.splitCircleLeft {
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-right: 0;
+}
+div.splitCircleRight {
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-left: 0;
+}
