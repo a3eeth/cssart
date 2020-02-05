@@ -10,22 +10,16 @@ div.main-circle {
     position: relative;
     z-index: 0;
     overflow: hidden;
-
-    /* transition: 0.9s all; */
 }
-/* div.main-circle:hover {
-    transform: scale(0.8);
-} */
-
 span.glyphicon.glyphicon-tree-deciduous:nth-child(1) {
     font-size: 250px;
-    z-index: 1;
+    z-index: 3;
     top: 48%;
     left: 0%;
 }
 span.glyphicon.glyphicon-tree-deciduous:nth-child(2) {
     font-size: 376px;
-    z-index: 1;
+    z-index: 3;
     top: -26%;
     left: 37%;
 }
@@ -34,9 +28,21 @@ span.glyphicon.glyphicon-cloud {
     font-size: 120px;
     top: -400px;
     right: 200px;
-
     transition: 0.9s all;
+    z-index: 2;
 }
-span.glyphicon.glyphicon-cloud:hover {
-    
+span.glyphicon.glyphicon-cloud.second {
+    color: red;
+    right: -30px;
+    top: -483px;
+}
+span.glyphicon.glyphicon-cog {
+    color: yellow;
+    top: -600px;
+    font-size: 110px;
+    z-index: 1;
+}
+/* span.glyphicon.glyphicon-cloud:hover {} */
+div.section2 {
+    height: 100vh;
 }
